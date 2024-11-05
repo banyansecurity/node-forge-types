@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-declare module "node-forge-types" {
+declare module "banyansecurity-node-forge" {
     type Byte = number;
     type Bytes = string;
     type Hex = string;
