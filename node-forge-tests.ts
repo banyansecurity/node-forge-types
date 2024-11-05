@@ -1,4 +1,4 @@
-import * as forge from "node-forge";
+import * as forge from "node-forge-types";
 
 let keypair = forge.pki.rsa.generateKeyPair({ bits: 512 });
 forge.pki.rsa.setPublicKey(keypair.privateKey.n, keypair.privateKey.e);
