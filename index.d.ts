@@ -986,6 +986,7 @@ declare module "node-forge" {
             password: string | null,
             options?: {
                 algorithm?: "aes128" | "aes192" | "aes256" | "3des" | undefined;
+                macAlgorithm?: "sha1" | "sha256" | "sha384" | "sha512" | "md5" | undefined;
                 count?: number | undefined;
                 saltSize?: number | undefined;
                 useMac?: boolean | undefined;
