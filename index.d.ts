@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node-forge-types" />
 
 declare module "banyansecurity-node-forge" {
     type Byte = number;
